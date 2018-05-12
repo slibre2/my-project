@@ -4,16 +4,13 @@
     </head>
   <body >
     <style>
-      body{
+      body{ }
        
-      
-      p{ 
-        text-shadow: 5px 5px 5px grey;
-        font-size: 100px;
-        color: blue;
-       }
+      p{  text-shadow: 5px 5px 5px grey;
+          font-size: 100px;
+          color: blue;}
  
-      }
+      
       .formation { font-size: 25px; }
       .moi {
         width: 300px;
@@ -21,21 +18,25 @@
         background-color: skyblue;
       font-size: 40px;}
       h1 {color: grey;
-        font-size: sans-serif;}
-      
+        font-family: sans-serif;}  
     </style>
     
-<h1> Hello The World  - bonjour ! </h1>    
+<h1 class="hello"> Hello The World  - bonjour ! </h1>    
 <p>
 <svg width="1000" height="250">  
 <rect width="150" height="150" fill="blue">
   <animate attributeName="x" from="-50" to="1000" direction="left"
     dur="10s" fill="freeze" repeatCount="indefinite"/> 
 </rect> 
- <p> <marquee style="font-family:monospace" direction="left"> "Bonjour , je m'appelle Samir et je  souhaite devenir développeur."
+  <marquee class="red" style="font-family:monospace;color:blue;font-size:100" direction="right" ; >
+      <svg><rect width="150" height="150" fill="red" ></rect></svg>
+       "un beau texte qui bouge à droite! / a beautiful right moving text ! "
+  </marquee>
+ <p> <marquee style="font-family:monospace;font-size:75;color:blue"" direction="left"> "Bonjour , je m'appelle Samir et je  souhaite devenir développeur."
   </marquee>
   </p> 
   <marquee> <rect width="150" height="150" fill="blue"> </marquee></rect>
+   
   <p class="formation"> FORMATION </br>
 2016-2017 : formation en autodidacte : apprentissage de languages informatique en ligne : html , css , ruby , Ror , Git , Java ,
   JavaScript ,Python  ... </br> https://www.codecademy.com/slibre2 </br>
